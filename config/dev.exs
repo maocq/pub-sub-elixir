@@ -5,7 +5,7 @@ config :elixir, :time_zone_database, Tzdata.TimeZoneDatabase
 config :elixir_ms, timezone: "America/Bogota"
 
 config :elixir_ms,
-  http_port: 8081,
+  http_port: 8080,
   enable_server: true,
   secret_name: "fua-dev-secret-CNX",
   region: "us-east-1",
